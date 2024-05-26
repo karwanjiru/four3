@@ -6,12 +6,12 @@ export default function DataScience() {
     return(
         <div className="container">
             {
-                DataSc.map(function (x) {
+                DataSc.map((x, index) => {
                     return(
-                        <div className="container-data" key={x.id}>
+                        <div className="container-data" key={index}>
                             <h1>{x.title}</h1>
                             <div className="image-container">
-                                <img src={x.Image} alt={x.title} className="img"/>
+                                <img src={x.image} alt={x.title} className="img"/>
                             </div>
                             <div className="content">
                                 <p>{x.moreDescription}</p>

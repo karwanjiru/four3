@@ -1,16 +1,14 @@
-import React from 'react'
-import './newnavigation.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './newnavigation.css';
+import { Link } from 'react-router-dom';
 
-
-
-export default function NewNavigation(){
-
+export default function NewNavigation() {
     function logOut() {
-        localStorage.removeItem("signUp")
-        window.location.reload()
+        localStorage.removeItem("signUp");
+        window.location.reload();
     }
-    return(
+
+    return (
         <div>
             <nav className="nav">
                 <ul className='nav-ul'>
@@ -18,9 +16,9 @@ export default function NewNavigation(){
                     <li><Link to={'/'} className='nav-links'>Home</Link></li>
                     <li><Link to={'https://four3careercompass.streamlit.app/'} target='blank' className='nav-links'>Chat Bot</Link></li>
                     <li><Link to={'/Authentication'} className='nav-links'>Authentication</Link></li>
-                    <button onClick={logOut} className='log-out'>Log Out</button>
+                    <li><button onClick={logOut} className='log-out'>Log Out</button></li>
                 </ul>
             </nav>
         </div>
-    )
+    );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function ChatBot() {
-    return(
+    return (
         <div>
             <h1>ChatBot</h1>
-        </div>
-    )
+        </div> // added closing tag
+    );
 }

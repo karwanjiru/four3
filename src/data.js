@@ -15,115 +15,110 @@ import img13 from './images/Business-analysis.jpeg'
 import img14 from './images/business.jpeg'
 import img15 from './images/business3.jpeg'
 
-
-
-
-
-export const DummyBlogs= [
+export default [
     {
         id: 1,
-        Image: img1,
+        Image: './images/Aerospace-Engineering.jpeg',
         category: 'Engineering',
         title: 'Aerospace Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 2,
-        Image: img2,
+        Image: './images/Civil-Engineering.jpeg',
         category: 'Engineering',
         title: 'Civil-Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 3,
-        Image: img3,
+        Image: './images/Chemical-Engineering.jpeg',
         category: 'Engineering',
         title: 'Chemical-Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 4,
-        Image: img4,
+        Image: './images/Medicine.jpeg',
         category: 'Medicine',
         title: 'Medicine & Surgery 1',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 5,
-        Image: img5,
+        Image: './images/Medicine&Surgery.jpeg',
         category: 'Medicine',
         title: 'Medicine & Surgery 2',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 6,
-        Image: img6,
+        Image: './images/MS.jpeg',
         category: 'Medicine',
         title: 'Medicine & Surgery 3',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 7,
-        Image: img7,
+        Image: './images/Sports-science.jpeg',
         category: 'Sports',
         title: 'Sports Science',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 8,
-        Image: img8,
+        Image: './images/footballOandE.jpeg',
         category: 'Sports',
         title: 'Professional Football',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 9,
-        Image: img9,
+        Image: './images/BasketBall.jpeg',
         category: 'Sports',
         title: 'Professional Basketball',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 10,
-        Image: img10,
+        Image: './images/Computer-Science.jpeg',
         category: 'Technology',
         title: 'Computer Science',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 11,
-        Image: img11,
+        Image: './images/Tech.jpeg',
         category: 'Technology',
         title: 'Tech',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 12,
-        Image: img12,
+        Image: './images/software-engineering.jpeg',
         category: 'Technology',
         title: 'Software Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 13,
-        Image: img13,
+        Image: './images/Business-analysis.jpeg',
         category: 'Business',
         title: 'Business-Analysis',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 14,
-        Image: img14,
+        Image: './images/business.jpeg',
         category: 'Business' ,
         title: 'Business-Meetings',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
     },
     {
         id: 15,
-        Image: img15,
+        Image: './images/business3.jpeg',
         category: 'Business' ,
         title: 'Business-Planning',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nulla, facilis blanditiis hic totam dolorum ducimus id voluptatibus, nihil voluptatum vero accusamus. Sunt, odit officiis quasi maxime fugiat tempore.'
-    },
-
+    }
 ]

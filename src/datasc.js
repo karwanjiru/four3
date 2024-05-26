@@ -1,9 +1,9 @@
-import dataimg from './images/data-science.jpeg'
+import dataimg from './images/data-science.jpeg';
 
 export const DataSc = [
     {
         id: 3,
-        Image: dataimg,
+        Image: dataimg.default,
         category: 'Data Science',
         title: 'Data Science',
         description: 'Data science merges statistics, computer science, and domain expertise to extract insights from data. It involves analyzing, visualizing, and interpreting data to inform decision-making and solve complex problems.',
