@@ -1,0 +1,144 @@
+.main-authentication{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    background-color: none;
+    width: auto;
+    height: auto;
+    margin: auto; 
+/*  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.container-header{
+    display: flex;
+    border: 1px solid #FF862C;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.log-in{
+    margin: 5px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hover{
+    /* position: absolute; */
+    background-color: #FF862C;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    /* left: 0;
+    left: 0%; 
+    z-index: -1;  */
+    cursor: pointer;
+}
+
+.sign-up{
+    margin: 5px auto;
+    z-index: 1;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-inputs{
+    margin-top: 60px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.input label{
+    display: block;
+}
+
+.input input{
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+.container-forgotpass span{
+    color: #FF862C;
+    cursor: pointer;
+}
+
+.container-buttons{
+    display: flex;
+    margin: 30px auto;
+    gap: 25px;
+}
+
+.switch-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: #FF862C;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px
+}
+
+.span-signup{
+    color: #FF862C;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-link{
+    text-decoration: none;
+}
+
+.four-three{
+   margin: auto; 
+   margin-top: 100px; 
+   font-weight: 800;
+   font-size: 40px;
+}
+
+.main-sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
